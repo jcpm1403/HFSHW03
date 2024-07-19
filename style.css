@@ -1,14 +1,17 @@
   .button {
     background-color: #04AA6D; /* Green */
-    border: none;
+    border:red;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 2px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 20px;
+    margin: 2%;
     cursor: pointer;
+    width: 210px;
+    height: 70px;
+    border-radius: 7px;
+    text-shadow: 3px 3px 3px red        
   }
   
   .button1 {
@@ -69,5 +72,46 @@
   .button5:hover {
     background-color: turquoise;
     color: black;
+  }
+
+  .fondo {
+    background-color: cadetblue;
+  }
+
+  .mitexto {
+    font-size: 50px;
+    font-family: 'Tahoma';
+    font-style: calc(25);
+    text-shadow: 1px 1px 2px red;
+    color: rgb(253, 253, 252);
+    padding: 1%;
+    text-align: center;
+  }
+
+  .mitexto1 {
+    font-size: 40px;
+    font-family: 'Tahoma';
+    font-style: calc(25);
+    color: rgba(252, 248, 8, 0.952);
+    border-style: double;
+    padding: 1%;
+    text-align: center;
+  }
+
+  .mitexto2 {
+    font-size: 30px;
+    font-family: 'Tahoma';
+    font-style: calc(25);
+    color: rgb(95, 44, 7);
+    border-style: double;
+    padding: 1%;
+    text-align: center;
+  }
+
+  .contenedor {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: auto;
   }
   
