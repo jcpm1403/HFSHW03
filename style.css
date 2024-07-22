@@ -1,17 +1,16 @@
   .button {
-    background-color: #04AA6D; /* Green */
-    border:red;
-    color: white;
-    padding: 10px 2px;
+    background-color: #4a504e; /* Green */
+    border:rgb(10, 10, 10);
+    color: rgb(248, 246, 246);    
     text-align: center;
     display: inline-block;
-    font-size: 20px;
+    font-size: 1.5em;
     margin: 2%;
     cursor: pointer;
     width: 210px;
     height: 70px;
     border-radius: 7px;
-    text-shadow: 3px 3px 3px red        
+    text-shadow: 1px 1px 1px red    
   }
   
   .button1 {
@@ -75,43 +74,111 @@
   }
 
   .fondo {
-    background-color: cadetblue;
+    background-color: rgb(255, 255, 255);
   }
 
   .mitexto {
-    font-size: 50px;
+    font-size: 5em;
     font-family: 'Tahoma';
     font-style: calc(25);
     text-shadow: 1px 1px 2px red;
-    color: rgb(253, 253, 252);
+    color: rgb(31, 31, 29);
     padding: 1%;
     text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .mitexto1 {
-    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;   
+    width: 80vw;
+    font-size: 3.5em;
     font-family: 'Tahoma';
-    font-style: calc(25);
+    font-style:italic;
     color: rgba(252, 248, 8, 0.952);
-    border-style: double;
+    text-shadow: 1px 1px 2px rgb(255, 145, 0);
+    border-style: double;    
     padding: 1%;
-    text-align: center;
+    align-items: center;
   }
 
   .mitexto2 {
-    font-size: 30px;
+    font-size: 2em;
     font-family: 'Tahoma';
     font-style: calc(25);
     color: rgb(95, 44, 7);
     border-style: double;
     padding: 1%;
     text-align: center;
+    align-items: center;
   }
 
-  .contenedor {
-    display: flex;
-    justify-content:center;
+  .mitexto3 {    
+    font-size: 1em;
+    font-family: 'Tahoma';
+    font-style: calc(25);
+    color:blue;
+    text-shadow:  1px 1px 1.5px greenyellow;
+    border-color: blue;
+    border-style: double;
+    border-radius: 7px;
+    padding: 1%;
+    text-align: center;
     align-items: center;
+  }
+
+  .contenedor {    
+    display: flex;
+    justify-content:center;    
     height: auto;
+    margin: auto;
+    align-items: center;
   }
   
+  .contenedortitulos {
+    width: 20vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;    
+    border-radius: 15PX;
+    display: flex;          /*Uso de la propiedad flex*/
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap: 1em;
+    align-items: center;
+  }
+  
+  #fotocont{
+    background-color: rgb(98, 111, 119);    
+    width: 45vw;
+    height: auto;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;    
+    border-color:rgb(14, 85, 8);
+    border-style:solid;
+    border-radius: 15PX;
+    padding: 7px 7px 7px 7px;
+    display: flex;          /*Uso de la propiedad flex*/
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap: 1em;
+    align-items: center;
+  }
+
+  .fotos{
+    width: 20vw;
+    height: 20dw;
+    border-color: rgb(14, 85, 8);
+    border-style:solid;
+    border-radius: 15PX;
+    cursor: pointer;    
+    display: flex;          /*Uso de la propiedad flex*/
+    flex-direction: column;
+    justify-content:space-evenly;
+    gap: 1em;
+    align-items: center;
+  }
